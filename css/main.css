@@ -81,6 +81,7 @@ button a {
   grid-row-gap: 30px;
   padding-left: 180px;
   padding-top: 70px;
+  padding-right: 90px;
 }
 .player {
   width: 330px;
