@@ -228,10 +228,14 @@ font-size: 40px;
  
   .players{
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
 
   }
   .oursponsor{
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
    
   }
   .subcribe form {
@@ -266,10 +270,14 @@ font-size: 25px;
   }
   .players{
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
 
   }
   .oursponsor{
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
   
   }
   .subcribe form {
@@ -307,10 +315,15 @@ font-size: 25px;
   }
   .players{
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
    
   }
   .oursponsor{
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    
    
   }
   .subcribe form {
