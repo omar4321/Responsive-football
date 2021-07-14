@@ -205,8 +205,8 @@ font-size: 40px;
 }
 
 /* meadia */
-
-@media (max-width: 575.98px) { 
+@media (max-width: 991.98px) { 
+    
 
   header{
     display: none;
@@ -223,15 +223,15 @@ font-size: 40px;
     font-size: 40px;
   }
   .hero-img img {
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 350px;
   }
   .players{
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-left: 50px;
   }
   .oursponsor{
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-left: 150px;
   }
   .subcribe form {
@@ -245,7 +245,7 @@ font-size: 25px;
 
  }
 
-
+ 
  @media (max-width: 767.98px) {
    
   header{
@@ -287,42 +287,44 @@ font-size: 25px;
 
 
 
-  @media (max-width: 991.98px) { 
-    
+  
 
-    header{
-      display: none;
-      height: auto;
-      width: auto;
-    }
-    .hero{
-      flex-direction: column;
-      height: auto;
-     
-  
-    }
-    .hero h2{
-      font-size: 40px;
-    }
-    .hero-img img {
-      width: 300px;
-      height: 350px;
-    }
-    .players{
-      grid-template-columns: repeat(2, 1fr);
-      padding-left: 50px;
-    }
-    .oursponsor{
-      grid-template-columns: repeat(2, 1fr);
-      padding-left: 150px;
-    }
-    .subcribe form {
-   font-size: 20px;
-   margin-right: 10px;
-    }
-    .subcribe form h2{
-  font-size: 25px;
-    }
-  
-  
-   }
+@media (max-width: 575.98px) { 
+
+  header{
+    display: none;
+    height: auto;
+    width: auto;
+  }
+  .hero{
+    flex-direction: column;
+    height: auto;
+   
+
+  }
+  .hero h2{
+    font-size: 40px;
+  }
+  .hero-img img {
+    width: 200px;
+    height: 250px;
+  }
+  .players{
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 50px;
+  }
+  .oursponsor{
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 150px;
+  }
+  .subcribe form {
+ font-size: 20px;
+ margin-right: 10px;
+  }
+  .subcribe form h2{
+font-size: 25px;
+  }
+
+
+ }
+
