@@ -266,11 +266,11 @@ font-size: 25px;
   }
   .players{
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 50px;
+
   }
   .oursponsor{
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 150px;
+  
   }
   .subcribe form {
  font-size: 20px;
@@ -307,11 +307,11 @@ font-size: 25px;
   }
   .players{
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 50px;
+   
   }
   .oursponsor{
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 150px;
+   
   }
   .subcribe form {
  font-size: 20px;
